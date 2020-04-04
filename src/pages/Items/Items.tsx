@@ -99,7 +99,7 @@ const Items = () => {
       <View style={styles.header}>
         <Text style={styles.logo}>Sell It</Text>
         <Text style={styles.headerText}>
-          Total de <Text style={styles.headerTextBold}>{count} casos</Text>
+          Total de <Text style={styles.headerTextBold}>{count} items</Text>
         </Text>
       </View>
       <Text></Text>
