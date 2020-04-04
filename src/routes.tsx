@@ -7,7 +7,7 @@ import Details from './pages/Details/Details';
 const AppStack = createStackNavigator();
 
 const screenOptions = {
-  headerShown: false
+  headerShown: false,
 };
 
 export const Routes: React.FC = () => {
@@ -15,7 +15,7 @@ export const Routes: React.FC = () => {
     <NavigationContainer>
       <AppStack.Navigator screenOptions={screenOptions}>
         <AppStack.Screen component={Items} name="items" />
-        <AppStack.Screen component={Details} name="detail" />
+        <AppStack.Screen component={Details} name="details" />
       </AppStack.Navigator>
     </NavigationContainer>
   );
